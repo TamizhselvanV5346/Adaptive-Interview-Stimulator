@@ -6,7 +6,7 @@ from alembic import context
 
 from app.core.config import settings
 from app.database.base import Base
-from app.database.models.organization import Organization
+import app.database.models  # noqa: F401
 
 config = context.config
 
