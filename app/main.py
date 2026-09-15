@@ -2,6 +2,7 @@ from fastapi import FastAPI
 
 from app.core.config import settings
 from app.core.logging import configure_logging, get_logger
+from app.api.routes.intake import router as intake_router
 
 
 configure_logging()
@@ -15,6 +16,10 @@ app = FastAPI(
     description="Adaptive Interview Simulator backend.",
 )
 
+app.include_router(
+    intake_router,
+    prefix=settings.api_prefix,
+)
 
 @app.on_event("startup")
 async def startup_event() -> None:
