@@ -38,3 +38,4 @@ langgraph==1.2.11
 reportlab==5.0.1
 pillow==12.3.0
 pypdf==6.18.1
+streamlit>=1.30.0
