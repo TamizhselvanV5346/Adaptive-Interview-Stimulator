@@ -1,4 +1,5 @@
 from app.database.models.candidate import Candidate
+from app.database.models.candidate_response import CandidateResponse
 from app.database.models.competency import Competency
 from app.database.models.intake_request import IntakeRequest
 from app.database.models.interview_competency import InterviewCompetency
@@ -27,4 +28,5 @@ __all__ = [
     "InterviewSessionStatus",
     "Question",
     "QuestionType",
+    "CandidateResponse",
 ]
