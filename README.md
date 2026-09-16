@@ -13,14 +13,6 @@
 
 ---
 
-## 🌐 Live Web Application
-
-Experience the live adaptive technical interview simulator:
-
-👉 **[https://adaptive-interview-simulator.onrender.com](https://adaptive-interview-simulator.onrender.com)** *(or run locally at `http://localhost:8501`)*
-
----
-
 ## ❓ What it does ?
 
 **Adaptive Interview Simulator** transforms rigid, static screening interviews into an intelligent, evidence-driven conversational crucible that adapts to candidate performance in real time:
@@ -165,6 +157,13 @@ CLAUDE_API_KEY=your_anthropic_api_key_here
 GEMINI_API_KEY=your_gemini_api_key_here
 GROQ_API_KEY=your_groq_api_key_here
 ```
+
+---
+
+## 📚 Architecture & Documentation
+
+- **[System Architecture](docs/architecture.md)**: Deep-dive into LangGraph cyclic state machines, component layers, data models, and intelligence services.
+- **[Adaptive Workflow](docs/workflow.md)**: Step-by-step sequence diagrams, 5-way decision matrices, and conversational recovery safeguards.
 
 ---
 
